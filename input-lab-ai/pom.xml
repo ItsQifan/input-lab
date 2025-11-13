@@ -9,20 +9,12 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-<!--    <groupId>com.zhouchuanxiang.inputlab.common</groupId>-->
-    <artifactId>input-lab-common</artifactId>
+    <artifactId>input-lab-ai</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
 
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
-
-    </dependencies>
 </project>
