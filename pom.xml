@@ -29,6 +29,7 @@
         <module>input-lab-common</module>
         <module>input-lab-wheels</module>
         <module>input-lab-ai</module>
+        <module>input-lab-threadandjuc-note</module>
     </modules>
 
     <properties>
