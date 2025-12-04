@@ -1,4 +1,4 @@
-package com.zhouchuanxiang.threadandjuc.base._05waitnotify;
+package com.zhouchuanxiang.threadandjuc.base._05wait_notify;
 
 /**
  * 关键字

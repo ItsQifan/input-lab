@@ -1,4 +1,4 @@
-package com.zhouchuanxiang.threadandjuc.base._05waitnotify.print100use2thread;
+package com.zhouchuanxiang.threadandjuc.base._05wait_notify.print100use2thread;
 
 /**
  * 用两个线程交替打印1--100的奇偶

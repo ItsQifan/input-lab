@@ -1,4 +1,4 @@
-package com.zhouchuanxiang.threadandjuc.base._05waitnotify.producerandconsumer;
+package com.zhouchuanxiang.threadandjuc.base._05wait_notify.producerandconsumer;
 
 /**
  * 模拟生产者
