@@ -30,6 +30,7 @@
         <module>input-lab-wheels</module>
         <module>input-lab-ai</module>
         <module>input-lab-threadandjuc-note</module>
+        <module>input-lab-redis</module>
     </modules>
 
     <properties>
@@ -41,6 +42,7 @@
         <hutool.version>5.8.28</hutool.version>
         <javax.servlet.version>3.0.1</javax.servlet.version>
         <poi.version>4.1.2</poi.version>
+        <jackson.version>2.19.1</jackson.version>
     </properties>
 
     <dependencies>
@@ -113,6 +115,31 @@
                 <artifactId>poi-ooxml</artifactId>
                 <version>${poi.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>2.1.1</version>
+            </dependency>
+
+
+            <!-- jackson  -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

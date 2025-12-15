@@ -45,6 +45,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+        <dependency>
+            <groupId>com.zhouchuanxiang.inputlab</groupId>
+            <artifactId>input-lab-common</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
