@@ -31,6 +31,7 @@
         <module>input-lab-ai</module>
         <module>input-lab-threadandjuc-note</module>
         <module>input-lab-redis</module>
+        <module>input-lab-design-patterns</module>
     </modules>
 
     <properties>
